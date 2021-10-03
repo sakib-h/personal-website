@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-image: url("resources/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+
+.w-40 {
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+  overflow: hidden;
+}
+
+.w-40 h2 {
+  font-weight: 500;
+  font-size: 50px;
+  padding-top: 30%;
+  padding-bottom: 10px;
+}
+
+.w-40 h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #EC4C77;
+  padding-bottom: 30px;
+}
+
+.w-40 p {
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.w-40 img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.w-40 a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #EC4C77;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.biography-container {
+  background-image: url("resources/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.biography-container h2 {
+  padding-top: 400px;
+}
+
+.latest-work {
+  background-image: url("resources/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.latest-work .latest-work-container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.latest-work .latest-work-container .w-33 {
+  width: 33%;
+  float: left;
+  overflow: hidden;
+
+}
+
+.latest-work .latest-work-container h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  padding: 80px 0;
+}
+
+.latest-work .latest-work-container .w-33 img {
+  width: 100%;
+  padding: 0 5%;
+  transition: 0.5s;
+}
+
+.latest-work .latest-work-container .w-33 img:hover {
+  transform: scale(110%);
+}
+
+.client-area {
+  text-align: center;
+}
+
+.client-area h2 {
+  font-size: 50px;
+  font-weight: 600;
+  padding: 80px 0;
+
+}
+
+.client-area h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.client-area h4 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: #797979;
+}
+
+.client-area p {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.email-area {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.email-area a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #EC4C77;
+  padding: 20px 300px;
+  border-radius: 8px;
+}
+
+.email-area a h3 {
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+
+.email-area a h2 {
+  font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  color: #797979;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
