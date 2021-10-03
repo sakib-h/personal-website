@@ -145,7 +145,7 @@
   text-decoration: none;
   color: #ffffff;
   background-color: #EC4C77;
-  padding: 20px 300px;
+  padding: 20px 200px;
   border-radius: 8px;
 }
 
@@ -162,5 +162,5 @@ footer {
   text-align: center;
   color: #797979;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
